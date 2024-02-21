@@ -1,0 +1,33 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Python cache folders
+__pycache__
+
+# Ignore environment folders
+venv/
+env/
+*.env
+
+# Ignore IDE or editor specific files and folders
+.vscode/
+.idea/
+*.pyproj
+*.iml
+
+# Ignore local development configuration files
+*.sqlite3
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore pipenv and poetry files
+Pipfile
+Pipfile.lock
+poetry
