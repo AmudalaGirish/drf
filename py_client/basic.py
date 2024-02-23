@@ -7,3 +7,4 @@ get_response = requests.get(endpoint, json={"query":"Hello world"}) # Http Reque
 print(get_response.json())
 print(get_response.status_code)
 # print(get_response.text)
+
